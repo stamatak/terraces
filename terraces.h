@@ -157,6 +157,6 @@ int terraceAnalysis(
 		    const int ta_outspec,
 		    FILE *allTreesOnTerrace,
 		    mpz_t *terraceSize		   
-		    );
+		    ) __attribute__((warn_unused_result)); 
 
 #endif /* TERRACES_H */
